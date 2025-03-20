@@ -1,0 +1,63 @@
+@font-face {
+    font-family:Alummi;
+    src: url(fontes/Fontspring-DEMO-theseasons-reg.otf);
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: cabeçalho;
+    src: url(fontes/GlacialIndifference-Regular.otf);
+    font-weight: 900;
+    font-style: normal;
+}
+
+.principal {
+    width: 1080px;
+    height: 1080px;
+    margin-left: 150px;
+}
+
+.caixa-cinza {
+    background-color: #cbc8c8ad;
+    margin-top: 20px;
+    width: 1600px;
+    height: 1080px;
+    border-radius: 40px 40px 0px 0px;
+    display: flex;
+}
+
+#Busca {
+    margin-left: 400px;
+    width: 80px;
+    height: auto;
+    object-fit: contain;
+}
+
+#Topo, #Caixinhas, #Outros, #Contatos {
+    margin-top: 10px;
+    font-family: cabeçalho;
+    font-size: 25px;
+}
+
+#Topo {
+    margin-left: 200px;
+}
+
+#Caixinhas {
+    margin-left: 70px;
+}
+
+#Outros {
+    margin-left: 70px;
+}
+
+#Contatos {
+    margin-left: 70px;
+}
+
+.NOVIDADES{
+    font-family: Alummi;
+    margin-inline: auto;
+    margin-top: 80px;
+    font-size: 75px;
+}
