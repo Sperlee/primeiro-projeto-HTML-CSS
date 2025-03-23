@@ -10,54 +10,51 @@
     font-weight: 900;
     font-style: normal;
 }
-
-.principal {
-    width: 1080px;
-    height: 1080px;
-    margin-left: 150px;
-}
-
-.caixa-cinza {
-    background-color: #cbc8c8ad;
-    margin-top: 20px;
-    width: 1600px;
-    height: 1080px;
-    border-radius: 40px 40px 0px 0px;
+#linha{
+    width: 80%;
     display: flex;
+    margin: auto;
+}
+#busca{
+    background-color: #d4d5d686;
+    width: 100px;
+    height: 50px;
+    margin-top: 1%;
+    border-radius: 20px;
 }
 
-#Busca {
-    margin-left: 400px;
-    width: 80px;
-    height: auto;
-    object-fit: contain;
-}
-
-#Topo, #Caixinhas, #Outros, #Contatos {
-    margin-top: 10px;
+.menu{
     font-family: cabeçalho;
-    font-size: 25px;
+    font-size: 200%;
+    color: #000;
+    text-align: center;
+    padding: 10px;
+    margin-left: 3%;
+    margin-top: 1%;
+    text-decoration: none;
 }
 
-#Topo {
-    margin-left: 200px;
+#white-square{
+    background-color:#d4d5d686;
+    height: 100%;
+    width: 80%;
+    border-radius: 20px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-inline: auto;
+    margin-top: 20px;
+    box-shadow: 5px 5px 5px #00000054;
+}
+#news{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-#Caixinhas {
-    margin-left: 70px;
-}
-
-#Outros {
-    margin-left: 70px;
-}
-
-#Contatos {
-    margin-left: 70px;
-}
-
-.NOVIDADES{
+h1{
     font-family: Alummi;
     margin-inline: auto;
-    margin-top: 80px;
-    font-size: 75px;
+    margin-top: 30px;
+    font-size: 60px;
 }
