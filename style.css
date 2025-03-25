@@ -14,9 +14,10 @@
     width: 80%;
     display: flex;
     margin: auto;
+    background-color: #8f7777;
 }
 #busca{
-    background-color: #d4d5d686;
+    background-color: #8cac9e6b;
     width: 100px;
     height: 50px;
     margin-top: 1%;
@@ -35,21 +36,25 @@
 }
 
 #white-square{
-    background-color:#d4d5d686;
+    background-image:linear-gradient(180deg,#8cac9e6b,rgba(255, 255, 255, 0.11));
     height: 100%;
     width: 80%;
     border-radius: 20px 20px;
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-inline: auto;
     margin-top: 20px;
     box-shadow: 5px 5px 5px #00000054;
 }
-#news{
+#square{
     display: flex;
     flex-direction: column;
     align-items: center;
+    height: 100%;
+}
+
+#pictures{
+    display: flex;
 }
 
 h1{
@@ -57,4 +62,20 @@ h1{
     margin-inline: auto;
     margin-top: 30px;
     font-size: 60px;
+}
+
+.paragraph{
+    font-family: cabeçalho;
+    font-size: 20px;
+    margin-inline: auto;
+    margin-top: 30px;
+    text-align: center;
+    width: 70%;
+    background-image: linear-gradient(90deg,rgba(144, 209, 131, 0.11),rgba(250, 250, 250, 0.171));
+    border-radius: 10px;
+}
+
+.logo{
+    margin-left: 40px;
+    margin-top: 70px;
 }
